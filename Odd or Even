@@ -1,0 +1,7 @@
+number = int(input("Please input a number: "))
+if number % 2 == 0 and number % 4 == 0:
+    print("You've just typed an even number divisible with 4 !")
+elif number % 2 == 0:
+    print("You've just typed an even number !!")
+else:
+    print("You've typed an odd number !!!")
